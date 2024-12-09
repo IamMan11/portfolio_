@@ -1,101 +1,77 @@
 import Image from "next/image";
 
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="font-sans text-gray-800">
+    <header className="bg-gray-400 text-white text-center py-6">
+    <Image
+        src="/123456.jpg"
+        alt="Profile Picture"
+        width={50} // กำหนดความกว้าง
+        height={50} // กำหนดความสูง
+        className="w-20 mx-auto mb-10"
+      />
+      <h1 className="text-4xl font-bold">Puntakorn Maikampange</h1>
+      <br></br>
+      <p className="text-lg">Portfolio</p>
+    </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <main className="p-6">
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">About me</h2>
+        <p>
+          Hello, I m a developer with a passion for technology. and web application development to solve problems and create new value.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">Educational Record</h2>
+        <ul className="list-disc pl-6">
+          <li>Bachelor,s Degree: Software Engineering, University of Phayao</li>
+          <li>Secondary School: Poolcharoen Witthayakhom School</li>
+        </ul>
+      </section>
+
+      <section className="mb-8 flex flex-row">
+        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+        <Image
+        src="/vs.jpg"
+        alt="Profile Picture"
+        width={50} // กำหนดความกว้าง
+        height={50} // กำหนดความสูง
+        className="w-20 mx-auto mb-10"
+      />
+        <Image
+        src="/node.png"
+        alt="a"
+        width={50} // กำหนดความกว้าง
+        height={50} // กำหนดความสูง
+        className="w-20 mx-auto mb-10"
+      />
+              <Image
+        src="/nextjs.png"
+        alt="s"
+        width={50} // กำหนดความกว้าง
+        height={50} // กำหนดความสูง
+        className="w-20 mx-auto mb-10"
+      />
+        <Image
+        src="/tailwind.png"
+        alt="d"
+        width={50} // กำหนดความกว้าง
+        height={50} // กำหนดความสูง
+        className="w-20 mx-auto mb-10"
+      />
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <p>Email 66022826</p>
+        <p>Phone: 0811329758</p>
+      </section>
+    </main>
+  </div>
   );
 }
+
