@@ -29,7 +29,6 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">Educational Record</h2>
         <ul className="list-disc pl-6">
           <li>Bachelor,s Degree: Software Engineering, University of Phayao</li>
-          <li>Secondary School: Poolcharoen Witthayakhom School</li>
         </ul>
       </section>
 
