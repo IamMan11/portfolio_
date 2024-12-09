@@ -66,7 +66,7 @@ export default function Home() {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p>Email 66022826@up.ac.th</p>
+        <p>Email 66022826</p>
         <p>Phone: 0811329758</p>
       </section>
     </main>
