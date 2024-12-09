@@ -21,7 +21,7 @@ export default function Home() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">About me</h2>
         <p>
-          Hello, I m a developer with a passion for technology. and web application development to solve problems and create new value.
+          Hell, I m a developer with a passion for technology. and web application development to solve problems and create new value.
         </p>
       </section>
 
